@@ -1,0 +1,62 @@
+[
+  {
+    "id": "0001",
+    "email": "fxiztxrmizxi@gmail.com",
+    "username": "Paiz",
+    "password": "paiz123",
+    "status": "INACTIVE",
+    "created": "05/07/2026",
+    "lastActivity": "05/07/2026, 3:23:17 am",
+    "lastActivityISO": "2026-07-04T19:23:17.720Z"
+  },
+  {
+    "id": "0002",
+    "email": "paim123@gmail.com",
+    "username": "Faim",
+    "password": "faim1234",
+    "status": "INACTIVE",
+    "created": "05/07/2026",
+    "lastActivity": "05/07/2026, 9:20:15 pm",
+    "lastActivityISO": "2026-07-05T13:20:15.615Z"
+  },
+  {
+    "id": "0003",
+    "email": "im123@gmail.com",
+    "username": "Payiem",
+    "password": "payiem123",
+    "status": "ACTIVE",
+    "created": "07/07/2026",
+    "lastActivity": "07/07/2026, 10:44:28 pm",
+    "lastActivityISO": "2026-07-07T14:44:28.652Z"
+  },
+  {
+    "id": "0004",
+    "email": "payim@mmu.com",
+    "username": "Payim",
+    "password": "payim123",
+    "status": "ACTIVE",
+    "created": "07/07/2026",
+    "lastActivity": "08/07/2026, 11:54:12 am",
+    "lastActivityISO": "2026-07-08T03:54:12.089Z"
+  },
+  {
+    "id": "0005",
+    "email": "zul123@gmail.com",
+    "username": "Zulhilmi",
+    "password": "Zul123",
+    "status": "ACTIVE",
+    "created": "08/07/2026",
+    "lastActivity": "08/07/2026, 2:26:55 pm",
+    "lastActivityISO": "2026-07-08T06:26:55.002Z"
+  },
+  {
+    "id": "0006",
+    "email": "loh@gmail.com",
+    "username": "Loh",
+    "password": "loh123",
+    "status": "ACTIVE",
+    "created": "08/07/2026",
+    "lastActivity": "26/07/2026, 9:09:03 am",
+    "lastActivityISO": "2026-07-26T01:09:03.251Z"
+  }
+]

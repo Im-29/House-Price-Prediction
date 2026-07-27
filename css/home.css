@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+  background: url("../img/bg.jpg") no-repeat center/cover;
+  height: 100vh;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(18px);
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.logo {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-left: -35%;
+  text-shadow: 0 0 10px grey;
+}
+
+.logo img{
+  width: 5%;
+  margin-bottom: -1.2%;
+}
+
+.logo img:hover {
+  color: white;
+  transform: translate(-5px);
+}
+
+nav a {
+  margin-left: 5px;
+  margin-right: 65px;
+  color: #8cf28a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 3px grey;
+}
+
+nav img{
+  margin-bottom: -10px;
+}
+
+nav a:hover {
+  color: white;
+  transform: translateY(-2px);
+  text-shadow: rgba(77,178,189,.4);
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: calc(100vh - 140px);
+}
+
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 105%;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* Content */
+.content {
+  position: relative;
+  line-height: 1.6;
+  padding: 70px;
+  height: 105%;
+  max-width: 800px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  position: relative;
+}
+
+/* Big title */
+.content h1 {
+  font-size: 60px;
+  font-weight: 1500;
+  color: #8cf28a;
+  margin: 0px 10px;
+  text-align: left;
+  filter: drop-shadow(0 0 40px rgba(150, 255, 150, 0.2));
+  text-shadow: 0 0 5px rgba(150, 255, 150, 0.4);
+}
+
+/* Username */
+.user {
+  margin: 10px 10px;
+  padding-top: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Description */
+.desc {
+  margin: 20px 10px;
+  line-height: 1.7;
+  color: white;
+  font-weight: 400;
+  text-shadow: 0 0 2px;
+}
+
+.home-img {
+  margin-left: 45%;
+  margin-top: -3%;
+}
+
+.home-img img {
+  width: 80%;
+  margin-top: -150%;
+  margin-bottom: -1%;
+  margin-left: 14%;
+  filter: drop-shadow(0 0 40px rgba(255, 255, 150, 0.9));
+}
+
+.home-img img:hover {
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: rgba(77,178,189,.4); 
+}

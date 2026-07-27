@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Estimator</title>
+  <link rel="stylesheet" href="css/estimator.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <div class="logo">
+    <img src=img/home-logo.png>HOUSE PRICE PREDICTION
+  </div>
+  <nav>
+    <img src="https://img.icons8.com/?size=100&id=NOLgNDi7UQdG&format=png&color=000000" width="35px" height="35px">
+    <a href="home.html">Home</a>
+    <img src="https://img.icons8.com/?size=100&id=HPqrXzaGZmqX&format=png&color=000000" width="35px" height="35px">
+    <a href="estimator.html">Estimator</a>
+    <img src="https://img.icons8.com/?size=100&id=y6PHsinv4G3f&format=png&color=000000" width="40px" height="40px">
+    <a href="profile.html">Profile</a>
+  </nav>
+</header>
+
+<!-- Main Card -->
+<div class="container">
+  <div class="card">
+    <h1>PRICE ESTIMATOR</h1>
+
+    <form id="estimatorForm">
+
+      <div class="grid">
+
+        <!-- LEFT SIDE -->
+        <div class="left">
+
+          <label>Location</label>
+          <select id="district">
+            <option>Gombak</option>
+            <option>Hulu Langat</option>
+            <option>Hulu Selangor</option>
+            <option>Klang</option>
+            <option>Kuala Langat</option>
+            <option>Kuala Selangor</option>
+            <option>Petaling</option>
+            <option>Sabak Bernam</option>
+            <option>Sepang</option>
+          </select>
+
+          <label>Type</label>
+          <select id="property_type">
+            <option>1 - 1 1/2 Storey Semi-Detached</option>
+            <option>1 - 1 1/2 Storey Terraced</option>
+            <option>2 - 2 1/2 Storey Semi-Detached</option>
+            <option>2 - 2 1/2 Storey Terraced</option>
+            <option>Cluster House</option>
+            <option>Condominium/Apartment</option>
+            <option>Detached</option>
+            <option>Flat</option>
+            <option>Low-Cost Flat</option>
+            <option>Low-Cost House</option>
+            <option>Town House</option>
+          </select>
+
+          <label>Tenure</label>
+          <select id="tenure">
+            <option>Freehold</option>
+            <option>Leasehold</option>
+          </select>
+
+          <label>Month & Year</label>
+          <input type="text" id="month_year_of_transaction_date" value="July 2021">
+
+          <label>Size (sq/m)</label>
+          <input type="number" id="main_floor_area" value="74">
+
+          <button type="submit" id="PredictButton">PREDICT</button>
+
+        </div>
+
+
+        <!-- RIGHT SIDE RESULT -->
+        <div class="right">
+          <h2>RESULT</h2>
+          <h1 id="result">RM 0</h1>
+          <button type="submit" id="SaveButton">SAVE</button> 
+        </div>
+
+      </div>
+
+    </form>
+
+  </div>
+</div>
+
+<script src="estimator.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "userId": "0001",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "05/07/2026, 3:24:37 am"
+  },
+  {
+    "userId": "0001",
+    "district": "Petaling",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "588,648.625",
+    "date": "05/07/2026, 3:24:46 am"
+  },
+  {
+    "userId": "0001",
+    "district": "Gombak",
+    "property_type": "2 - 2 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2023",
+    "main_floor_area": "74",
+    "price": "582,854.375",
+    "date": "05/07/2026, 5:02:53 am"
+  },
+  {
+    "userId": "0001",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "05/07/2026, 9:10:51 pm"
+  },
+  {
+    "userId": "0002",
+    "district": "Hulu Langat",
+    "property_type": "1 - 1 1/2 Storey Terraced",
+    "tenure": "Leasehold",
+    "month_year_of_transaction_date": "July 2022",
+    "main_floor_area": "100",
+    "price": "409,783.844",
+    "date": "05/07/2026, 9:21:55 pm"
+  },
+  {
+    "userId": "0003",
+    "district": "Klang",
+    "property_type": "1 - 1 1/2 Storey Terraced",
+    "tenure": "Leasehold",
+    "month_year_of_transaction_date": "September 2024",
+    "main_floor_area": "100",
+    "price": "401,430.656",
+    "date": "07/07/2026, 9:21:37 pm"
+  },
+  {
+    "userId": "0003",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2022",
+    "main_floor_area": "74",
+    "price": "441,124.938",
+    "date": "07/07/2026, 10:25:07 pm"
+  },
+  {
+    "userId": "0003",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "07/07/2026, 10:30:10 pm"
+  },
+  {
+    "userId": "0003",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "07/07/2026, 10:36:00 pm"
+  },
+  {
+    "userId": "0003",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2024",
+    "main_floor_area": "410",
+    "price": "2,286,057.25",
+    "date": "07/07/2026, 10:48:18 pm"
+  },
+  {
+    "userId": "0004",
+    "district": "Gombak",
+    "property_type": "2 - 2 1/2 Storey Semi-Detached",
+    "tenure": "Leasehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "20000",
+    "price": "2,472,321.5",
+    "date": "08/07/2026, 11:34:50 am"
+  },
+  {
+    "userId": "0004",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "08/07/2026, 11:37:02 am"
+  },
+  {
+    "userId": "0004",
+    "district": "Gombak",
+    "property_type": "1 - 1 1/2 Storey Semi-Detached",
+    "tenure": "Freehold",
+    "month_year_of_transaction_date": "July 2021",
+    "main_floor_area": "74",
+    "price": "429,938.875",
+    "date": "08/07/2026, 11:38:12 am"
+  },
+  {
+    "userId": "0005",
+    "district": "Hulu Langat",
+    "property_type": "2 - 2 1/2 Storey Semi-Detached",
+    "tenure": "Leasehold",
+    "month_year_of_transaction_date": "August 2021",
+    "main_floor_area": "100",
+    "price": "578,461",
+    "date": "08/07/2026, 2:23:01 pm"
+  },
+  {
+    "userId": "0006",
+    "district": "Klang",
+    "property_type": "Condominium/Apartment",
+    "tenure": "Leasehold",
+    "month_year_of_transaction_date": "August 2021",
+    "main_floor_area": "74",
+    "price": "274,148.344",
+    "date": "08/07/2026, 2:57:22 pm"
+  }
+]
