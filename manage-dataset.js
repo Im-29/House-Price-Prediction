@@ -2,7 +2,7 @@ const table = document.getElementById("table");
 
 function loadDatasets() {
 
-  fetch("http://localhost:3000/get-datasets")
+  fetch("https://house-price-prediction-1943.onrender.com/get-datasets")
     .then(res => res.json())
     .then(data => {
 
@@ -72,7 +72,7 @@ function uploadDataset() {
   const formData = new FormData();
   formData.append("file", file);
 
-  fetch("http://localhost:3000/upload-dataset", {
+  fetch("https://house-price-prediction-1943.onrender.com/upload-dataset", {
     method: "POST",
     body: formData
   }).then(() => {
@@ -89,7 +89,7 @@ function deleteDataset() {
     return;
   }
 
-  fetch(`http://localhost:3000/delete-dataset/${encodeURIComponent(checkbox.value)}`, {
+  fetch(`https://house-price-prediction-1943.onrender.com/delete-dataset/${encodeURIComponent(checkbox.value)}`, {
     method: "DELETE"
   }).then(() => {
     loadDatasets();
@@ -98,7 +98,7 @@ function deleteDataset() {
 
 // Preview
 function previewDataset(file) {
-  fetch(`http://localhost:3000/preview/${file}`)
+  fetch(`https://house-price-prediction-1943.onrender.com/preview/${file}`)
     .then(res => res.json())
     .then(data => {
 
