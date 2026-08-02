@@ -5,7 +5,7 @@ if (localStorage.getItem("username") !== "admin") {
 const table = document.getElementById("table");
 
 // fetch activity data
-fetch("http://localhost:3000/get-activity")
+fetch("https://house-price-prediction-1943.onrender.com/get-activity")
   .then(res => res.json())
   .then(data => {
 
