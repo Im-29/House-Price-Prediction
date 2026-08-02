@@ -60,7 +60,7 @@ form.addEventListener("submit", async function (e) {
     }
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/predict", {
+      const res = await fetch("https://python-api-7xbz.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
