@@ -1,3 +1,4 @@
+const path = require("path");
 const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
@@ -9,6 +10,14 @@ const upload = multer({ dest: "uploads/" });
 const app = express();
 app.use(express.json());
 app.use(cors());
+
+// Serve static files
+app.use(express.static(__dirname));
+
+// Redirect homepage to login.html
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "login.html"));
+});
 
 const PORT = 3000;
 const FILE = "users.json";
