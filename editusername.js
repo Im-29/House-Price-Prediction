@@ -99,7 +99,7 @@ form.addEventListener("submit", async function (e) {
   }
 
   try {
-    const res = await fetch("http://localhost:3000/update-username", {
+    const res = await fetch("https://house-price-prediction-1943.onrender.com/update-username", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -126,7 +126,7 @@ form.addEventListener("submit", async function (e) {
       alert("Username successfully updated!");
 
       // send notification
-      await fetch("https://house-price-prediction-1943.onrender.com/", {
+      await fetch("https://house-price-prediction-1943.onrender.com/send-message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
