@@ -8,7 +8,7 @@ form.addEventListener("submit", async function (e) {
   const password = document.getElementById("password").value.trim();
 
   try {
-    const res = await fetch("https://house-price-prediction-1943.onrender.com/", {
+    const res = await fetch("https://house-price-prediction-1943.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
