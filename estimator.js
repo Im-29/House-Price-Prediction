@@ -60,7 +60,7 @@ form.addEventListener("submit", async function (e) {
     }
 
     try {
-      const res = await fetch("https://house-price-prediction-1943.onrender.com/", {
+      const res = await fetch("https://127.0.0.1:5000/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
