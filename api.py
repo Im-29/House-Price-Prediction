@@ -34,4 +34,4 @@ def predict():
 
 # run server
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(https://house-price-prediction-1943.onrender.com/)
