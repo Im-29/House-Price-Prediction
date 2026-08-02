@@ -19,7 +19,7 @@ document.querySelectorAll(".link").forEach(el => {
 const username = localStorage.getItem("username");
 const userId = localStorage.getItem("userId")
 
-fetch("http://localhost:3000/get-messages")
+fetch("https://house-price-prediction-1943.onrender.com/")
   .then(res => res.json())
   .then(data => {
 
