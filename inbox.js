@@ -30,7 +30,7 @@ fetch("http://localhost:3000/get-messages")
   });
 
   // mark messages as read
-fetch("http://localhost:3000/mark-read", {
+fetch("https://house-price-prediction-1943.onrender.com/", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
