@@ -107,7 +107,7 @@ form.addEventListener("submit", async function (e) {
 
     const userId = localStorage.getItem("userId");
 
-    fetch("http://localhost:3000/send-message", {
+    fetch("https://house-price-prediction-1943.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -120,7 +120,7 @@ form.addEventListener("submit", async function (e) {
 
     const username = localStorage.getItem("username");
 
-    fetch("http://localhost:3000/save-history", {
+    fetch("https://house-price-prediction-1943.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
