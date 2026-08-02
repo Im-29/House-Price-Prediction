@@ -1,7 +1,7 @@
 const table = document.getElementById("table");
 const userId = localStorage.getItem("userId")
 
-fetch("https://house-price-prediction-1943.onrender.com/")
+fetch("https://house-price-prediction-1943.onrender.com/get-history")
   .then(res => res.json())
   .then(data => {
 
