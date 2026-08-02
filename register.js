@@ -24,7 +24,7 @@ form.addEventListener("submit", async function(e) {
   }
 
   try {
-    const res = await fetch("http://localhost:3000/register", {
+    const res = await fetch("https://house-price-prediction-1943.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
