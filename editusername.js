@@ -126,7 +126,7 @@ form.addEventListener("submit", async function (e) {
       alert("Username successfully updated!");
 
       // send notification
-      await fetch("https://house-price-prediction-1943.onrender.com/send-messages", {
+      await fetch("https://house-price-prediction-1943.onrender.com/send-message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
