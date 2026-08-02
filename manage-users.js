@@ -4,7 +4,7 @@ if (localStorage.getItem("username") !== "admin") {
 
 const table = document.getElementById("table");
 
-fetch("http://localhost:3000/get-users")
+fetch("https://house-price-prediction-1943.onrender.com/get-users")
   .then(res => res.json())
   .then(data => {
 
@@ -35,7 +35,7 @@ fetch("http://localhost:3000/get-users")
         if (!confirm("Delete this user?")) return;
 
         await fetch(
-          `http://localhost:3000/delete-user/${encodeURIComponent(user.username)}`,
+          `https://house-price-prediction-1943.onrender.com/delete-user/${encodeURIComponent(user.username)}`,
           { method: "DELETE" }
         );
 
