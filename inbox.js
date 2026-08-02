@@ -5,7 +5,7 @@ if (!localStorage.getItem("userId")) {
 const userId = localStorage.getItem("userId");
 const container = document.getElementById("messages");
 
-fetch("http://localhost:3000/get-messages")
+fetch("https://house-price-prediction-1943.onrender.com/get-messages")
   .then(res => res.json())
   .then(data => {
 
@@ -30,7 +30,7 @@ fetch("http://localhost:3000/get-messages")
   });
 
   // mark messages as read
-fetch("https://house-price-prediction-1943.onrender.com/", {
+fetch("https://house-price-prediction-1943.onrender.com/mark-read", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
